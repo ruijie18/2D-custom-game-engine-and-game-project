@@ -1,0 +1,2299 @@
+{
+    "entities": [
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 139.5896453857422,
+                        "maxY": 837.0,
+                        "minX": 89.58828735351563,
+                        "minY": 750.9971923828125
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Thief",
+                    "friction": 0.5,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 47.5,
+                        "y": 85.5,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 114.5889663696289,
+                        "y": 793.9985961914063,
+                        "z": 1.0
+                    }
+                },
+                "animations": {
+                    "Column": 4,
+                    "FrameTime": 0.30000001192092896,
+                    "Row": 3,
+                    "TotalFrame": 10
+                },
+                "textureFile": "./Assets/Textures/Character1.png",
+                "type": "animation_texture"
+            },
+            "name": "Thief"
+        },
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 175.0,
+                        "y": 75.0,
+                        "z": -1.100000023841858
+                    },
+                    "translate": {
+                        "x": 1010.0,
+                        "y": 75.0,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/IndicationMenu2.png",
+                "type": "texture"
+            },
+            "name": "box"
+        },
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 175.0,
+                        "y": 75.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 591.4829711914063,
+                        "y": 75.0,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/IndicationMenu2.png",
+                "type": "texture"
+            },
+            "name": "box2"
+        },
+        {
+            "components": {
+                "RenderLayer": 0,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 1600.0,
+                        "y": 900.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 800.0,
+                        "y": 450.0,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Background.png",
+                "type": "texture"
+            },
+            "name": " Background"
+        },
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 60.0,
+                        "y": 60.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 963.5670776367188,
+                        "y": 72.66342163085938,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/HeartUi.png",
+                "type": "texture"
+            },
+            "name": "Heart1"
+        },
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 65.71421813964844,
+                        "y": 30.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1035.0,
+                        "y": 72.66342163085938,
+                        "z": 0.0
+                    }
+                },
+                "color": {
+                    "b": 1.0,
+                    "g": 1.0,
+                    "r": 1.0
+                },
+                "fontSize": 24,
+                "fontname": "Orbitron.ttf",
+                "scale": 1.0,
+                "text": "2 / 2",
+                "type": "text_texture"
+            },
+            "name": "heartLeft"
+        },
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 40.0,
+                        "y": 40.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 643.8380126953125,
+                        "y": 75.19721221923828,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Bag.png",
+                "type": "texture"
+            },
+            "name": "bag"
+        },
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 200.0,
+                        "y": 100.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 802.9506225585938,
+                        "y": 68.37688446044922,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/CLOCK 1.png",
+                "type": "texture"
+            },
+            "name": "BIG_BLACK_CLOCK"
+        },
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 100.0,
+                        "y": 30.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 802.9506225585938,
+                        "y": 68.37688446044922,
+                        "z": 0.0
+                    }
+                },
+                "color": {
+                    "b": 1.0,
+                    "g": 1.0,
+                    "r": 1.0
+                },
+                "fontSize": 24,
+                "fontname": "Orbitron.ttf",
+                "scale": 1.0,
+                "text": "03:20",
+                "type": "text_texture"
+            },
+            "name": "Timer"
+        },
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 100.0,
+                        "y": 30.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": -504.73187255859375,
+                        "y": 953.890625,
+                        "z": 0.0
+                    }
+                },
+                "colorX": 1.0,
+                "colorY": 1.0,
+                "colorZ": 1.0,
+                "type": "circle"
+            },
+            "name": "TextObject"
+        },
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 65.71421813964844,
+                        "y": 30.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 583.7350463867188,
+                        "y": 75.19721221923828,
+                        "z": 0.0
+                    }
+                },
+                "color": {
+                    "b": 1.0,
+                    "g": 1.0,
+                    "r": 1.0
+                },
+                "fontSize": 24,
+                "fontname": "Orbitron.ttf",
+                "scale": 1.0,
+                "text": "0 / 4",
+                "type": "text_texture"
+            },
+            "name": "ObjectCollected"
+        },
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 200.0,
+                        "y": 200.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 235.21408081054688,
+                        "y": 634.8929443359375,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/GetBackToVan.png",
+                "type": "texture"
+            },
+            "name": "GetBackToVan"
+        },
+        {
+            "components": {
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 630.0,
+                        "y": 200.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 905.443115234375,
+                        "y": 312.9187927246094,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/WallDesign4.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\WallDesign4.png"
+        },
+        {
+            "components": {
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 680.0,
+                        "y": 200.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 877.2141723632813,
+                        "y": 527.125732421875,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/WallDesign2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\WallDesign2.png"
+        },
+        {
+            "components": {
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 640.0,
+                        "y": 200.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 897.140380859375,
+                        "y": 728.0481567382813,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/WallDesign1.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\WallDesign1.png"
+        },
+        {
+            "components": {
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 310.0,
+                        "y": 800.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1370.0,
+                        "y": 427.6789245605469,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/WallDesign3.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\WallDesign3.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1195.864013671875,
+                        "maxY": 221.62744140625,
+                        "minX": 395.864013671875,
+                        "minY": 201.62744140625
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 800.0,
+                        "y": 20.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 795.864013671875,
+                        "y": 211.62744140625,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1539.7454833984375,
+                        "maxY": 43.95201110839844,
+                        "minX": 1187.7454833984375,
+                        "minY": 23.952011108398438
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 345.0,
+                        "y": 20.0,
+                        "z": -1.0
+                    },
+                    "translate": {
+                        "x": 1372.0633544921875,
+                        "y": 33.95201110839844,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1214.8616943359375,
+                        "maxY": 430.8525390625,
+                        "minX": 459.8616943359375,
+                        "minY": 410.8525390625
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 755.0,
+                        "y": 20.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 837.3616943359375,
+                        "y": 420.8525390625,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1213.911376953125,
+                        "maxY": 646.7195434570313,
+                        "minX": 523.911376953125,
+                        "minY": 626.7195434570313
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 691.0,
+                        "y": 20.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 871.4067993164063,
+                        "y": 636.7195434570313,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 581.678955078125,
+                        "maxY": 828.5424194335938,
+                        "minX": 561.678955078125,
+                        "minY": 740.5424194335938
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "LockDoor",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 40.0,
+                        "y": 88.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 561.7158203125,
+                        "y": 784.5424194335938,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Door.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\LockedDoorV2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 642.323486328125,
+                        "maxY": 749.6533203125,
+                        "minX": 501.0337829589844,
+                        "minY": 739.6533203125
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 141.2897186279297,
+                        "y": 10.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 571.6786499023438,
+                        "y": 744.6533203125,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1544.7786865234375,
+                        "maxY": 829.9943237304688,
+                        "minX": 1524.7786865234375,
+                        "minY": 24.99432373046875
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 20.0,
+                        "y": 805.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1534.7786865234375,
+                        "y": 427.49432373046875,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall1.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall1.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1216.0147705078125,
+                        "maxY": 219.45932006835938,
+                        "minX": 1186.0147705078125,
+                        "minY": 24.459320068359375
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 20.0,
+                        "y": 195.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1205.173828125,
+                        "y": 121.95932006835938,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall1.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall1.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 540.9869995117188,
+                        "maxY": 628.7857666015625,
+                        "minX": 525.9869995117188,
+                        "minY": 428.7857666015625
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 15.0,
+                        "y": 200.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 533.4869995117188,
+                        "y": 528.7857666015625,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall1.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall1.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1215.997802734375,
+                        "maxY": 827.8814086914063,
+                        "minX": 1195.997802734375,
+                        "minY": 739.8814086914063
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "LockDoor",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 40.0,
+                        "y": 90.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1198.0921630859375,
+                        "y": 782.8814086914063,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Door.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\LockedDoorV2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1215.9981689453125,
+                        "maxY": 626.9224853515625,
+                        "minX": 1195.9981689453125,
+                        "minY": 536.9224853515625
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "LockDoor",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 40.0,
+                        "y": 90.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1195.5986328125,
+                        "y": 581.9224853515625,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Door.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\LockedDoorV2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1214.3367919921875,
+                        "maxY": 411.32098388671875,
+                        "minX": 1194.3367919921875,
+                        "minY": 321.32098388671875
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "LockDoor",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 40.0,
+                        "y": 90.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1195.6011962890625,
+                        "y": 366.32098388671875,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Door.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\LockedDoorV2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1281.64208984375,
+                        "maxY": 747.9926147460938,
+                        "minX": 1131.64208984375,
+                        "minY": 737.9926147460938
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 150.0,
+                        "y": 10.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1206.64208984375,
+                        "y": 742.9926147460938,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1281.64208984375,
+                        "maxY": 537.66064453125,
+                        "minX": 1131.64208984375,
+                        "minY": 527.66064453125
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 150.0,
+                        "y": 10.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1206.64208984375,
+                        "y": 532.66064453125,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1281.64208984375,
+                        "maxY": 324.5608825683594,
+                        "minX": 1131.64208984375,
+                        "minY": 314.5608825683594
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 150.0,
+                        "y": 10.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1206.64208984375,
+                        "y": 319.5608825683594,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1524.90771484375,
+                        "maxY": 426.0,
+                        "minX": 1424.90771484375,
+                        "minY": 416.0
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 100.0,
+                        "y": 10.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1474.90771484375,
+                        "y": 421.0,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1524.9998779296875,
+                        "maxY": 641.0,
+                        "minX": 1424.9998779296875,
+                        "minY": 631.0
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 100.0,
+                        "y": 10.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1474.9998779296875,
+                        "y": 636.0,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1525.0,
+                        "maxY": 211.0,
+                        "minX": 1425.0,
+                        "minY": 201.0
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 100.0,
+                        "y": 10.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1475.0,
+                        "y": 206.0,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall2.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall2.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1504.9815673828125,
+                        "maxY": 190.1329345703125,
+                        "minX": 1454.9815673828125,
+                        "minY": 140.1329345703125
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Object",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 50.0,
+                        "y": 50.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1479.9815673828125,
+                        "y": 165.1329345703125,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/NewNecklace.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\NewNecklace.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 784.3172607421875,
+                        "maxY": 374.4500732421875,
+                        "minX": 734.3172607421875,
+                        "minY": 324.4500732421875
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Object",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 50.0,
+                        "y": 50.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 759.3172607421875,
+                        "y": 349.4500732421875,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/newRing.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\newRing.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 619.9262084960938,
+                        "maxY": 563.7490844726563,
+                        "minX": 569.9262084960938,
+                        "minY": 513.7490844726563
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Object",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 50.0,
+                        "y": 50.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 594.9262084960938,
+                        "y": 538.7490844726563,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Painting.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Painting.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 928.7823486328125,
+                        "maxY": 832.7529296875,
+                        "minX": 878.7823486328125,
+                        "minY": 782.7529296875
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Object",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 50.0,
+                        "y": 50.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 903.7823486328125,
+                        "y": 807.7529296875,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/newWallet.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\newWallet.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1055.95947265625,
+                        "maxY": 452.0206298828125,
+                        "minX": 930.95947265625,
+                        "minY": 432.0206298828125
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser Module",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 125.0,
+                        "y": 20.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 993.45947265625,
+                        "y": 442.0206298828125,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/toplazerRED.png",
+                "type": "texture"
+            },
+            "name": "Lasermod1"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 931.4204711914063,
+                        "maxY": 452.4393310546875,
+                        "minX": 806.4204711914063,
+                        "minY": 432.4393310546875
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser Module",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 125.0,
+                        "y": 20.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 868.9204711914063,
+                        "y": 442.4393310546875,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/toplazerRED.png",
+                "type": "texture"
+            },
+            "name": "Lasermod2"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 807.0291137695313,
+                        "maxY": 452.080322265625,
+                        "minX": 682.0291137695313,
+                        "minY": 432.080322265625
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser Module",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 125.0,
+                        "y": 20.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 744.5291137695313,
+                        "y": 442.080322265625,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/toplazerRED.png",
+                "type": "texture"
+            },
+            "name": "Lasermod3"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 491.52362060546875,
+                        "maxY": 240.16873168945313,
+                        "minX": 461.52362060546875,
+                        "minY": 220.16873168945313
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser Module",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 30.0,
+                        "y": 20.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 476.52362060546875,
+                        "y": 230.16873168945313,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/SmallTopLazer.png",
+                "type": "texture"
+            },
+            "name": "Lasermod4"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 844.2933959960938,
+                        "maxY": 663.99169921875,
+                        "minX": 814.2933959960938,
+                        "minY": 643.99169921875
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser Module",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 30.0,
+                        "y": 20.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 829.2933959960938,
+                        "y": 653.99169921875,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/SmallTopLazer.png",
+                "type": "texture"
+            },
+            "name": "Lasermod5"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 990.1384887695313,
+                        "maxY": 662.7451171875,
+                        "minX": 960.1384887695313,
+                        "minY": 642.7451171875
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser Module",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 30.0,
+                        "y": 20.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 975.1384887695313,
+                        "y": 652.7451171875,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/SmallTopLazer.png",
+                "type": "texture"
+            },
+            "name": "Lasermod6"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 986.530517578125,
+                        "maxY": 242.24798583984375,
+                        "minX": 861.530517578125,
+                        "minY": 222.24798583984375
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser Module",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 125.0,
+                        "y": 20.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 924.030517578125,
+                        "y": 232.24798583984375,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/toplazerRED.png",
+                "type": "texture"
+            },
+            "name": "Lasermod7"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1214.9207763671875,
+                        "maxY": 265.4091796875,
+                        "minX": 1194.9207763671875,
+                        "minY": 126.80918884277344
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 20.0,
+                        "y": 138.60000610351563,
+                        "z": 0.9900000095367432
+                    },
+                    "translate": {
+                        "x": 1204.9207763671875,
+                        "y": 196.10919189453125,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall1.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall1.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 582.5068359375,
+                        "maxY": 686.051513671875,
+                        "minX": 562.5068359375,
+                        "minY": 646.051513671875
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 20.0,
+                        "y": 40.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 572.5068359375,
+                        "y": 666.051513671875,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall1.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall1.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1216.584228515625,
+                        "maxY": 685.5069580078125,
+                        "minX": 1196.584228515625,
+                        "minY": 646.5069580078125
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 20.0,
+                        "y": 40.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1206.584228515625,
+                        "y": 666.5069580078125,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall1.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall1.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1214.920654296875,
+                        "maxY": 472.071044921875,
+                        "minX": 1194.920654296875,
+                        "minY": 432.071044921875
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 20.0,
+                        "y": 40.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1204.920654296875,
+                        "y": 450.82452392578125,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall1.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall1.png"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 591.641845703125,
+                        "maxY": 356.3323669433594,
+                        "minX": 571.641845703125,
+                        "minY": 221.33236694335938
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Wall",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 20.0,
+                        "y": 140.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 581.641845703125,
+                        "y": 291.3323669433594,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Wall1.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\Wall1.png"
+        },
+        {
+            "components": {
+                "LaserComp": {
+                    "activeTime": 3.0,
+                    "inactiveTime": 1.0,
+                    "isActive": false,
+                    "linkModuleID": "Lasermod3",
+                    "timer": 0.0,
+                    "turnedOn": true
+                },
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 805.2120971679688,
+                        "maxY": 637.0885620117188,
+                        "minX": 680.2120971679688,
+                        "minY": 437.08856201171875
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 125.0,
+                        "y": 200.0,
+                        "z": -0.3799999952316284
+                    },
+                    "translate": {
+                        "x": 742.7120971679688,
+                        "y": 537.0885620117188,
+                        "z": 1.0
+                    }
+                },
+                "animations": {
+                    "Column": 4,
+                    "FrameTime": 0.30000001192092896,
+                    "Row": 3,
+                    "TotalFrame": 11
+                },
+                "textureFile": "./Assets/Textures/LazerAnimation.png",
+                "type": "animation_texture"
+            },
+            "name": "aser1"
+        },
+        {
+            "components": {
+                "LaserComp": {
+                    "activeTime": 2.5999999046325684,
+                    "inactiveTime": 1.399999976158142,
+                    "isActive": false,
+                    "linkModuleID": "Lasermod1",
+                    "timer": 0.0,
+                    "turnedOn": true
+                },
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 1055.9501953125,
+                        "maxY": 637.0885620117188,
+                        "minX": 930.9501953125,
+                        "minY": 437.08856201171875
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 125.0,
+                        "y": 200.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 993.4501953125,
+                        "y": 537.0885620117188,
+                        "z": 1.0
+                    }
+                },
+                "animations": {
+                    "Column": 4,
+                    "FrameTime": 0.30000001192092896,
+                    "Row": 3,
+                    "TotalFrame": 11
+                },
+                "textureFile": "./Assets/Textures/LazerAnimation.png",
+                "type": "animation_texture"
+            },
+            "name": "aser3"
+        },
+        {
+            "components": {
+                "LaserComp": {
+                    "activeTime": 2.799999952316284,
+                    "inactiveTime": 1.2000000476837158,
+                    "isActive": false,
+                    "linkModuleID": "Lasermod2",
+                    "timer": 0.0,
+                    "turnedOn": true
+                },
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 931.4116821289063,
+                        "maxY": 637.0886840820313,
+                        "minX": 806.4116821289063,
+                        "minY": 437.08868408203125
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 125.0,
+                        "y": 200.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 868.9116821289063,
+                        "y": 537.0886840820313,
+                        "z": 1.0
+                    }
+                },
+                "animations": {
+                    "Column": 4,
+                    "FrameTime": 0.30000001192092896,
+                    "Row": 3,
+                    "TotalFrame": 11
+                },
+                "textureFile": "./Assets/Textures/LazerAnimation.png",
+                "type": "animation_texture"
+            },
+            "name": "aser2"
+        },
+        {
+            "components": {
+                "LaserComp": {
+                    "activeTime": 2.000000238418579,
+                    "inactiveTime": 2.000000238418579,
+                    "isActive": false,
+                    "linkModuleID": "Lasermod5",
+                    "timer": 0.5461676120758057,
+                    "turnedOn": true
+                },
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 844.0590209960938,
+                        "maxY": 824.6529541015625,
+                        "minX": 814.0590209960938,
+                        "minY": 664.6529541015625
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 30.0,
+                        "y": 160.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 829.0590209960938,
+                        "y": 744.6529541015625,
+                        "z": 1.0
+                    }
+                },
+                "animations": {
+                    "Column": 4,
+                    "FrameTime": 0.20000000298023224,
+                    "Row": 3,
+                    "TotalFrame": 12
+                },
+                "textureFile": "./Assets/Textures/Spritesheet-Small_lazer.png",
+                "type": "animation_texture"
+            },
+            "name": "./Assets/Textures\\Spritesheet-Small_lazer.png"
+        },
+        {
+            "components": {
+                "LaserComp": {
+                    "activeTime": 2.000000238418579,
+                    "inactiveTime": 2.000000238418579,
+                    "isActive": false,
+                    "linkModuleID": "Lasermod6",
+                    "timer": 0.5461676120758057,
+                    "turnedOn": true
+                },
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 990.1847534179688,
+                        "maxY": 824.6529541015625,
+                        "minX": 960.1847534179688,
+                        "minY": 664.6529541015625
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 30.0,
+                        "y": 160.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 975.1847534179688,
+                        "y": 744.6529541015625,
+                        "z": 1.0
+                    }
+                },
+                "animations": {
+                    "Column": 4,
+                    "FrameTime": 0.20000000298023224,
+                    "Row": 3,
+                    "TotalFrame": 12
+                },
+                "textureFile": "./Assets/Textures/Spritesheet-Small_lazer.png",
+                "type": "animation_texture"
+            },
+            "name": "./Assets/Textures\\Spritesheet-Small_lazer.png"
+        },
+        {
+            "components": {
+                "LaserComp": {
+                    "activeTime": 300000.0,
+                    "inactiveTime": 0.0,
+                    "isActive": true,
+                    "linkModuleID": "Lasermod7",
+                    "timer": 299919.28125,
+                    "turnedOn": true
+                },
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 986.2086791992188,
+                        "maxY": 352.99267578125,
+                        "minX": 861.2086791992188,
+                        "minY": 232.99267578125
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 125.0,
+                        "y": 140.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 923.7086791992188,
+                        "y": 302.14239501953125,
+                        "z": 1.0
+                    }
+                },
+                "animations": {
+                    "Column": 4,
+                    "FrameTime": 0.30000001192092896,
+                    "Row": 3,
+                    "TotalFrame": 11
+                },
+                "textureFile": "./Assets/Textures/LazerAnimation.png",
+                "type": "animation_texture"
+            },
+            "name": "./Assets/Textures\\LazerAnimation.png"
+        },
+        {
+            "components": {
+                "LaserComp": {
+                    "activeTime": 300000.0,
+                    "inactiveTime": 0.0,
+                    "isActive": true,
+                    "linkModuleID": "Lasermod4",
+                    "timer": 299919.28125,
+                    "turnedOn": true
+                },
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 492.02978515625,
+                        "maxY": 409.5423278808594,
+                        "minX": 462.02978515625,
+                        "minY": 239.54232788085938
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Laser",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 30.0,
+                        "y": 170.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 477.02978515625,
+                        "y": 324.5423278808594,
+                        "z": 1.0
+                    }
+                },
+                "animations": {
+                    "Column": 4,
+                    "FrameTime": 0.30000001192092896,
+                    "Row": 3,
+                    "TotalFrame": 12
+                },
+                "textureFile": "./Assets/Textures/Spritesheet-_left_lazer.png",
+                "type": "animation_texture"
+            },
+            "name": "azer10"
+        },
+        {
+            "components": {
+                "PhysicsBody": {
+                    "aabb": {
+                        "maxX": 670.0,
+                        "maxY": 371.0,
+                        "minX": 630.0,
+                        "minY": 331.0
+                    },
+                    "acceleration": {
+                        "ax": 0.0,
+                        "ay": 0.0
+                    },
+                    "category": "Switch",
+                    "friction": 0.0,
+                    "mass": 1.0,
+                    "velocity": {
+                        "vx": 0.0,
+                        "vy": 0.0
+                    }
+                },
+                "RenderLayer": 1,
+                "Switch": {
+                    "interactables": [
+                        "yaser1",
+                        "azer10"
+                    ],
+                    "isOn": false
+                },
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 40.0,
+                        "y": 40.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 650.0,
+                        "y": 351.0,
+                        "z": 1.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/SwitchesOn.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\SwitchesOn.png"
+        },
+        {
+            "components": {
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 45.0,
+                        "y": 100.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 581.2384033203125,
+                        "y": 385.9519348144531,
+                        "z": 0.0
+                    }
+                },
+                "animations": {
+                    "Column": 1,
+                    "FrameTime": 0.0,
+                    "Row": 1,
+                    "TotalFrame": 1
+                },
+                "textureFile": "./Assets/Textures/GreyBG.png",
+                "type": "animation_texture"
+            },
+            "name": "./Assets/Textures\\GreyBG.png"
+        },
+        {
+            "components": {
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 20.0,
+                        "y": 55.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 572.0887451171875,
+                        "y": 713.2659912109375,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/GreyBG.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\GreyBG.png"
+        },
+        {
+            "components": {
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 45.0,
+                        "y": 100.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1206.746826171875,
+                        "y": 713.6805419921875,
+                        "z": 0.0
+                    }
+                },
+                "animations": {
+                    "Column": 1,
+                    "FrameTime": 0.0,
+                    "Row": 1,
+                    "TotalFrame": 1
+                },
+                "textureFile": "./Assets/Textures/GreyBG.png",
+                "type": "animation_texture"
+            },
+            "name": "./Assets/Textures\\GreyBG.png"
+        },
+        {
+            "components": {
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 20.0,
+                        "y": 55.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1205.9150390625,
+                        "y": 499.9121398925781,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/GreyBG.png",
+                "type": "texture"
+            },
+            "name": "./Assets/Textures\\GreyBG.png"
+        },
+        {
+            "components": {
+                "RenderLayer": 1,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 45.0,
+                        "y": 95.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1205.9150390625,
+                        "y": 290.29803466796875,
+                        "z": 0.0
+                    }
+                },
+                "animations": {
+                    "Column": 1,
+                    "FrameTime": 0.0,
+                    "Row": 1,
+                    "TotalFrame": 1
+                },
+                "textureFile": "./Assets/Textures/GreyBG.png",
+                "type": "animation_texture"
+            },
+            "name": "./Assets/Textures\\GreyBG.png"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "components": {
+        "RenderLayer": 2,
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 1600.0,
+            "y": 900.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800.0,
+            "y": 450.0,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/Digipen_Splash.png",
+        "type": "texture"
+      },
+      "name": "MenuUI"
+    },
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 1600.0,
+            "y": 900.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800.0,
+            "y": 450.0,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/A_Hustlers_University_Production.png",
+        "type": "texture"
+      },
+      "name": "MenuUI"
+
+    }
+  ]
+}

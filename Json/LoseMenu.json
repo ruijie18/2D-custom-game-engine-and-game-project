@@ -1,0 +1,88 @@
+{
+  "entities": [
+      {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 1600.0,
+                      "y": 900.0,
+                      "z": 1.0
+                  },
+                  "translate": {
+                      "x": 800.0,
+                      "y": 450.0,
+                      "z": 0.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/Background.png",
+              "type": "texture"
+          },
+          "name": "Background"
+      },
+      {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 555.4283447265625,
+                      "y": 538.6668090820313,
+                      "z": -1.0399997234344482
+                  },
+                  "translate": {
+                      "x": 800.0,
+                      "y": 450.0,
+                      "z": 0.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/LoseMenuBox.png",
+              "type": "texture"
+          },
+          "name": "MenuUI"
+      },
+      {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 175.0,
+                      "y": 75.0,
+                      "z": 1.0
+                  },
+                  "translate": {
+                      "x": 690.0,
+                      "y": 625.0,
+                      "z": 0.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/RestartButton.png",
+              "type": "texture"
+          },
+          "name": "MenuUI"
+      },
+      {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 175.0,
+                      "y": 75.0,
+                      "z": 1.0
+                  },
+                  "translate": {
+                      "x": 910.0,
+                      "y": 625.0,
+                      "z": 0.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/MainMenuButton.png",
+              "type": "texture"
+          },
+          "name": "MenuUI"
+      }
+  ]
+}

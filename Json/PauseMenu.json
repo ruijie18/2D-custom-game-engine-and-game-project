@@ -1,0 +1,184 @@
+{
+  "entities": [
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 1600.0,
+            "y": 900.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 450,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/Background.png",
+        "type": "texture"
+      },
+      "name": "MenuUI"
+
+
+
+    },
+
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 600.0,
+            "y": 600.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 450,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/MainMenuBox.png",
+        "type": "texture"
+      },
+      "name": "MenuUI"
+
+
+
+    },
+
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 400.0,
+            "y": 100.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 250,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/ResumeButton.png",
+        "type": "texture",
+        "Button": {
+          "action": "resume"
+        }
+      },
+      "name": "MenuUI"
+
+
+
+    },
+
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 400.0,
+            "y": 100.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 383.33,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/HowToPlay.png",
+        "type": "texture",
+        "Button": {
+          "action": "howToPlay"
+         }
+      },
+      "name": "MenuUI"
+
+
+
+    },
+
+
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 400.0,
+            "y": 100.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 516.67,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/MainMenuButton.png",
+        "type": "texture",
+        "Button": {
+          "action": "mainMenu"
+         }
+      },
+      "name": "MenuUI"
+
+
+
+    },
+
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 400.0,
+            "y": 100.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 650,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/QuitGame.png",
+        "type": "texture",
+        "Button": {
+          "action": "quitGame"
+         }
+      },
+      "name": "MenuUI"
+
+
+
+    }
+
+
+
+
+
+  ]
+}
+   

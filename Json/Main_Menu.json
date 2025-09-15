@@ -1,0 +1,187 @@
+{
+  "entities": [
+      {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 1600.0,
+                      "y": 900.0,
+                      "z": 1.0
+                  },
+                  "translate": {
+                      "x": 800.0,
+                      "y": 450.0,
+                      "z": 0.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/Background.png",
+              "type": "texture"
+          },
+          "name": "MenuUI"
+      },
+      {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 400.0,
+                      "y": 400.0,
+                      "z": 1.0
+                  },
+                  "translate": {
+                      "x": 1200.0,
+                      "y": 450.0,
+                      "z": 0.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/JumpUpdated.png",
+              "type": "texture"
+          },
+          "name": "MenuUI"
+      },
+      {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 450.0,
+                      "y": 150.0,
+                      "z": 1.0
+                  },
+                  "translate": {
+                      "x": 400.0,
+                      "y": 200.0,
+                      "z": 0.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/BreakInText.png",
+              "type": "texture"
+          },
+          "name": "MenuUI"
+      },
+      {
+        "components": {
+            "RenderLayer": 2,
+            "Transform": {
+                "rotate": 0.0,
+                "scale": {
+                    "x": 50.0,
+                    "y": 50.0,
+                    "z": 1.0
+                },
+                "translate": {
+                    "x": 1200.0,
+                    "y": 200.0,
+                    "z": 0.0
+                }
+            },
+            "textureFile": "./Assets/Textures/Volume.png",
+            "type": "texture",
+            "Button": {
+                "action": "Vol"
+               }
+        },
+        "name": "MenuUI"
+    },
+      {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 400.0,
+                      "y": 100.0,
+                      "z": 1.0
+                  },
+                  "translate": {
+                      "x": 400.0,
+                      "y": 350.0,
+                      "z": 0.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/StartButton.png",
+              "type": "texture",
+              "Button": {
+                "action": "startGame"
+               }
+          },
+          "name": "MenuUI"
+      },
+      {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 400.0,
+                      "y": 100.0,
+                      "z": 1.0
+                  },
+                  "translate": {
+                      "x": 400.0,
+                      "y": 475.0,
+                      "z": 0.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/HowToPlay.png",
+              "type": "texture",
+              "Button": {
+                "action": "howToPlay"
+               }
+          },
+          "name": "MenuUI"
+      },
+      {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 400.0,
+                      "y": 100.0,
+                      "z": 1.0
+                  },
+                  "translate": {
+                      "x": 400.0,
+                      "y": 600.0,
+                      "z": 0.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/LevelSelectButton.png",
+              "type": "texture",
+              "Button": {
+                "action": "levelSelect"
+               }
+          },
+          "name": "./Assets/Textures\\LevelSelectButton.png"
+      },
+      {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 400.0,
+                      "y": 100.0,
+                      "z": 1.0
+                  },
+                  "translate": {
+                      "x": 400.0,
+                      "y": 725.0,
+                      "z": 1.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/QuitGame.png",
+              "type": "texture",
+              "Button": {
+                "action": "quitGame"
+               }
+          },
+          "name": "./Assets/Textures\\QuitGame.png"
+      }
+  ]
+}

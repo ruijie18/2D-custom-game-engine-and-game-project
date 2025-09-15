@@ -1,0 +1,49 @@
+{
+    "entities": [
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 1600.0,
+                        "y": 900.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 800.0,
+                        "y": 450.0,
+                        "z": 0.0
+                    }
+                },
+                "textureFile": "./Assets/Textures/Credit.png",
+                "type": "texture"
+            },
+            "name": "MenuUI"
+        },
+        {
+            "components": {
+                "RenderLayer": 2,
+                "Transform": {
+                    "rotate": 0.0,
+                    "scale": {
+                        "x": 400.0,
+                        "y": 100.0,
+                        "z": 1.0
+                    },
+                    "translate": {
+                        "x": 1320.0,
+                        "y": 827.8598022460938,
+                        "z": 0.0
+                    }
+                },
+                "Button": {
+                	"action": "mainMenu"
+                },
+                "textureFile": "./Assets/Textures/GoBack.png",
+                "type": "texture"
+            },
+            "name": "nextButton"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 1600.0,
+            "y": 900.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 450,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/Background.png",
+        "type": "texture"
+      },
+      "name": "MenuUI"
+
+    },
+
+
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 500.0,
+            "y": 500.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 450,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/HowToPlayBox.png",
+        "type": "texture"
+      },
+      "name": "MenuUI"
+
+
+    },
+
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 200.0,
+            "y": 75.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 625,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/GoBack.png",
+        "type": "texture",
+        "Button": {
+          "action": "back"
+         }
+      },
+      "name": "MenuUI"
+
+
+    }
+
+
+
+  ]
+}

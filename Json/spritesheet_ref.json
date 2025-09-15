@@ -1,0 +1,38 @@
+{
+    "Big_Laser": {
+        "columns": 4,
+        "frameTime": 0.20000000298023224,
+        "rows": 3,
+        "totalFrames": 11
+    },
+    "Laser": {
+        "columns": 4,
+        "frameTime": 0.20000000298023224,
+        "rows": 3,
+        "totalFrames": 11
+    },
+    "Long_Laser": {
+        "columns": 4,
+        "frameTime": 0.20000000298023224,
+        "rows": 3,
+        "totalFrames": 11
+    },
+    "Player": {
+        "columns": 4,
+        "frameTime": 0.10000000149011612,
+        "rows": 4,
+        "totalFrames": 16
+    },
+    "Yellow_Laser": {
+        "columns": 4,
+        "frameTime": 0.20000000298023224,
+        "rows": 3,
+        "totalFrames": 12
+    },
+    "hi": {
+        "columns": 4,
+        "frameTime": 0.20000000298023224,
+        "rows": 3,
+        "totalFrames": 10
+    }
+}

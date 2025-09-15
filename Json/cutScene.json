@@ -1,0 +1,262 @@
+{
+    "entities": [
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 1600.0,
+              "y": 900.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 800,
+              "y": 450,
+              "z": 0.0
+            }
+          },
+          "alpha":0.0,
+          "textureFile": "./Assets/Textures/Scene9.png",
+          "type": "texture",
+          "seconds":3
+        },
+        "name": "cutscene"
+      },
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 1600.0,
+              "y": 900.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 800,
+              "y": 450,
+              "z": 0.0
+            }
+          },
+          "alpha":0.0,
+          "textureFile": "./Assets/Textures/Scene8.png",
+          "type": "texture",
+          "seconds":3
+        },
+        "name": "cutscene"
+      },
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 1600.0,
+              "y": 900.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 800,
+              "y": 450,
+              "z": 0.0
+            }
+          },
+          "alpha":0.0,
+          "textureFile": "./Assets/Textures/Scene7.png",
+          "type": "texture",
+          "seconds":5
+        },
+        "name": "cutscene"
+      },
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 1600.0,
+              "y": 900.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 800,
+              "y": 450,
+              "z": 0.0
+            }
+          },
+          "alpha":0.0,
+          "textureFile": "./Assets/Textures/Scene6.png",
+          "type": "texture",
+          "seconds":7
+        },
+        "name": "cutscene"
+      },
+
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 1600.0,
+              "y": 900.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 800,
+              "y": 450,
+              "z": 0.0
+            }
+          },
+          "alpha":0.0,
+          "textureFile": "./Assets/Textures/Scene5.png",
+          "type": "texture",
+          "seconds":5
+        },
+        "name": "cutscene"
+      },
+
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 1600.0,
+              "y": 900.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 800,
+              "y": 450,
+              "z": 0.0
+            }
+          },
+          "alpha":0.0,
+          "textureFile": "./Assets/Textures/Scene4.png",
+          "type": "texture",
+          "seconds":6
+        },
+        "name": "cutscene"
+      },
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 1600.0,
+              "y": 900.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 800,
+              "y": 450,
+              "z": 0.0
+            }
+          },
+          "alpha":0.0,
+          "textureFile": "./Assets/Textures/Scene3.png",
+          "type": "texture",
+          "seconds":2
+        },
+        "name": "cutscene"
+      },
+
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 1600.0,
+              "y": 900.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 800,
+              "y": 450,
+              "z": 0.0
+            }
+          },
+          "alpha":0.0,
+          "textureFile": "./Assets/Textures/Scene2.png",
+          "type": "texture",
+          "seconds":9
+        },
+        "name": "cutscene"
+      },
+
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 1600.0,
+              "y": 900.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 800,
+              "y": 450,
+              "z": 0.0
+            }
+          },
+          "alpha":1.0,
+          "textureFile": "./Assets/Textures/Scene1.png",
+          "type": "texture",
+          "seconds":9
+        },
+        "name": "cutscene"
+      },
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 400.0,
+              "y": 100.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 1320,
+              "y": 700,
+              "z": 0.0
+            }
+          },
+          "alpha":1.0,
+          "textureFile": "./Assets/Textures/skip.png",
+          "type": "texture",
+          "Button": {
+            "action": "next"
+           }
+        },
+        "name": "nextButton"
+      }
+
+    ]
+  }
+     

@@ -1,0 +1,308 @@
+{
+    "entities": [
+     {
+          "components": {
+              "RenderLayer": 2,
+              "Transform": {
+                  "rotate": 0.0,
+                  "scale": {
+                      "x": 1600.0,
+                      "y": 900.0,
+                      "z": 1.0
+                  },
+                  "translate": {
+                      "x": 800.0,
+                      "y": 450.0,
+                      "z": 0.0
+                  }
+              },
+              "textureFile": "./Assets/Textures/Background.png",
+              "type": "texture"
+          },
+          "name": "MenuUI"
+      },        
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 670.0,
+              "y": 512.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 800,
+              "y": 450,
+              "z": 0.0
+            }
+          },
+          "textureFile": "./Assets/Textures/AudioBackground.png",
+          "type": "texture"
+        },
+        "name": "MenuUI"
+      },
+  
+      {
+        "components": {
+          "RenderLayer": 2,
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 50.0,
+              "y": 50.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 1050.0,
+              "y": 370.0,
+              "z": 0.0
+            }
+          },
+          "textureFile": "./Assets/Textures/VolumeAdd.png",
+          "type": "texture",
+          "Button": {
+            "action": "incrementMasterVolume"
+          }
+        },
+        "name": "MasterVolumeUp"
+      },
+      {
+        "components": {
+          "RenderLayer": 2,
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 50.0,
+              "y": 50.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 775.0,
+              "y": 370.0,
+              "z": 0.0
+            }
+          },
+          "textureFile": "./Assets/Textures/VolumeMinus.png",
+          "type": "texture",
+          "Button": {
+            "action": "decrementMasterVolume"
+          }
+        },
+        "name": "MasterVolumeDown"
+      },
+      {
+        "components": {
+          "RenderLayer": 2,
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 100.0,
+              "y": 50.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 915.0,
+              "y": 370.0,
+              "z": 0.0
+            }
+          },
+          "type": "text_texture",
+          "text": "100",
+          "fontname": "Orbitron.ttf",
+          "size": 24,
+          "scale": 1.0,
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          }
+        },
+        "name": "MasterVolumeDisplay"
+      },
+  
+      {
+        "components": {
+          "RenderLayer": 2,
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 50.0,
+              "y": 50.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 1050.0,
+              "y": 455.0,
+              "z": 0.0
+            }
+          },
+          "textureFile": "./Assets/Textures/VolumeAdd.png",
+          "type": "texture",
+          "Button": {
+            "action": "incrementSFXVolume"
+          }
+        },
+        "name": "SFXVolumeUp"
+      },
+      {
+        "components": {
+          "RenderLayer": 2,
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 50.0,
+              "y": 50.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 775.0,
+              "y": 455.0,
+              "z": 0.0
+            }
+          },
+          "textureFile": "./Assets/Textures/VolumeMinus.png",
+          "type": "texture",
+          "Button": {
+            "action": "decrementSFXVolume"
+          }
+        },
+        "name": "SFXVolumeDown"
+      },
+        {
+          "components": {
+            "RenderLayer": 2,
+            "Transform": {
+              "rotate": 0.0,
+              "scale": {
+                "x": 100.0,
+                "y": 50.0,
+                "z": 1.0
+              },
+              "translate": {
+                "x": 915.0,
+                "y": 455.0,
+                "z": 0.0
+              }
+            },
+            "type": "text_texture",
+            "text": "100",
+            "fontname": "Orbitron.ttf",
+            "size": 24,
+            "scale": 1.0,
+            "color": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0
+            }
+          },
+        "name": "SFXVolumeDisplay"
+      },
+        {
+        "components": {
+          "RenderLayer": 2,
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 50.0,
+              "y": 50.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 1050.0,
+              "y": 545.0,
+              "z": 0.0
+            }
+          },
+          "textureFile": "./Assets/Textures/VolumeAdd.png",
+          "type": "texture",
+          "Button": {
+            "action": "incrementMusicVolume"
+          }
+        },
+        "name": "MusicVolumeUp"
+      },
+      {
+        "components": {
+          "RenderLayer": 2,
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 50.0,
+              "y": 50.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 775.0,
+              "y": 545.0,
+              "z": 0.0
+            }
+          },
+          "textureFile": "./Assets/Textures/VolumeMinus.png",
+          "type": "texture",
+          "Button": {
+            "action": "decrementMusicVolume"
+          }
+        },
+        "name": "MusicVolumeDown"
+      },
+      {
+        "components": {
+          "RenderLayer": 2,
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 100.0,
+              "y": 50.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 915.0,
+              "y": 545.0,
+              "z": 0.0
+            }
+          },
+          "type": "text_texture",
+          "text": "100",
+          "fontname": "Orbitron.ttf",
+          "size": 24,
+          "scale": 1.0,
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          }
+        },
+        "name": "MusicVolumeDisplay"
+      },
+      {
+        "components": {
+  
+          "RenderLayer": 2,
+  
+          "Transform": {
+            "rotate": 0.0,
+            "scale": {
+              "x": 300.0,
+              "y": 100.0,
+              "z": 1.0
+            },
+            "translate": {
+              "x": 1320,
+              "y": 700,
+              "z": 0.0
+            }
+          },
+          "alpha":1.0,
+          "textureFile": "./Assets/Textures/GoBack.png",
+          "type": "texture",
+          "Button": {
+            "action": "back"
+           }
+        },
+        "name": "nextButton"
+      }
+    ]
+  }

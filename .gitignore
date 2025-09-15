@@ -1,0 +1,15 @@
+# Visual Studio folders and files
+.vs/
+*.suo
+*.user
+*.VC.db
+*.cache
+
+# Build output
+x64/
+Debug/
+Release/
+
+# Intermediate or generated project files
+Hustlers.*/*
+*.obj

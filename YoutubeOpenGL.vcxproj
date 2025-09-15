@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d94349fd-5460-401f-9d7a-1cedaac766a5}</ProjectGuid>
+    <RootNamespace>YoutubeOpenGL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Hustlers University</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\Header;Libraries\include;$(IncludePath);Libraries\include\pybind11-master\include;Libraries\include\Python311\include;</IncludePath>
+    <LibraryPath>Libraries\lib;$(LibraryPath);Libraries\include\Python311\libs;</LibraryPath>
+    <SourcePath>$(VC_SourcePath);$(ProjectDir)\Source;</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)\Header;Libraries\include;Libraries\include\Python311;Libraries\include\Python311\include;Libraries\include\pybind11-master;Libraries\include\Python311\Lib;$(IncludePath)</IncludePath>
+    <LibraryPath>Libraries\lib;Libraries\include\Python311\Lib\;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(VC_SourcePath);$(ProjectDir)\Source;</SourcePath>
+    <TargetExt>.exe</TargetExt>
+    <TargetName>Break_In</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\Libraries\include\glew\include;.\Libraries\include\glm;.\Libraries\lib\ImGui;.\Libraries\include\Python311;.\Libraries\include\Python311\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32.lib;glew32s.lib;Libraries/lib/fmod/fmod_vc.lib;Libraries/lib/fmod/fmodstudio_vc.lib;Libraries/lib/freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\Libraries\include\glew\lib\Release\x64</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)\*.dll" "$(TargetDir)"
+
+xcopy /y /d "$(SolutionDir)\*.xml" "$(TargetDir)"
+
+xcopy /y /e /i "$(SolutionDir)\Json" "$(TargetDir)\Json"
+
+xcopy /y /e /i "$(SolutionDir)\Assets" "$(TargetDir)\Assets"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\Libraries\include\glew\include;.\Libraries\include\glm;.\Libraries\lib\ImGui;.\Libraries\include\pybind11-master\include;.\Libraries\include\Python311;.\Libraries\include\Python311\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32.lib;glew32s.lib;Libraries/lib/fmod/fmod_vc.lib;Libraries/lib/fmod/fmodstudio_vc.lib;Libraries/lib/freetype.lib;Libraries/lib/python311.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\Libraries\include\glew\lib\Release\x64</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)/Libraries/dll\*.dll" "$(TargetDir)"
+
+xcopy /y /d "$(SolutionDir)\*.xml" "$(TargetDir)"
+
+xcopy /y /e /i "$(SolutionDir)\Json" "$(TargetDir)\Json"
+
+xcopy /y /e /i "$(SolutionDir)\Assets" "$(TargetDir)\Assets"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\HelperFunctions.cpp" />
+    <ClCompile Include="Source\AssetsManager.cpp" />
+    <ClCompile Include="Libraries\lib\ImGui\imgui.cpp" />
+    <ClCompile Include="Libraries\lib\ImGui\ImGuizmo.cpp" />
+    <ClCompile Include="Libraries\lib\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="Libraries\lib\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Libraries\lib\ImGui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="Libraries\lib\ImGui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="Libraries\lib\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="Libraries\lib\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Source\AnimationState.cpp" />
+    <ClCompile Include="Source\ListOfComponents.cpp" />
+    <ClCompile Include="Source\AudioEngine.cpp" />
+    <ClCompile Include="Source\Collision.cpp" />
+    <ClCompile Include="Source\Component.cpp" />
+    <ClCompile Include="Source\ConfigLoading.cpp" />
+    <ClCompile Include="Source\Coordinator.cpp" />
+    <ClCompile Include="Source\Core.cpp" />
+    <ClCompile Include="Source\EntityManager.cpp" />
+    <ClCompile Include="Source\ExceptionHandler.cpp" />
+    <ClCompile Include="Source\FontSystem.cpp" />
+    <ClCompile Include="Source\GameLogic.cpp" />
+    <ClCompile Include="Source\glad.c" />
+    <ClCompile Include="Source\GlobalVariables.cpp" />
+    <ClCompile Include="Source\Graphics.cpp" />
+    <ClCompile Include="Source\ImguiManager.cpp" />
+    <ClCompile Include="Source\InputSystem.cpp" />
+    <ClCompile Include="Source\JSONSerialization.cpp" />
+    <ClCompile Include="Source\matrix3x3.cpp" />
+    <ClCompile Include="Source\matrix4x4.cpp" />
+    <ClCompile Include="Source\Mouse.cpp" />
+    <ClCompile Include="Source\Physics.cpp" />
+    <ClCompile Include="Source\Render.cpp" />
+    <ClCompile Include="Source\Shader.cpp" />
+    <ClCompile Include="Source\SignalHandler.cpp" />
+    <ClCompile Include="Source\SystemsManager.cpp" />
+    <ClCompile Include="Source\tinyXML2.cpp" />
+    <ClCompile Include="Source\vector2d.cpp" />
+    <ClCompile Include="Source\vector3d.cpp" />
+    <ClCompile Include="Source\WinMain.cpp" />
+    <ClCompile Include="Volume.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\AnimationState.h" />
+    <ClInclude Include="Header\AssetsManager.h" />
+    <ClInclude Include="Header\AudioEngine.h" />
+    <ClInclude Include="Header\backward.hpp" />
+    <ClInclude Include="Header\Collision.h" />
+    <ClInclude Include="Header\CommonIncludes.h" />
+    <ClInclude Include="Header\Component.h" />
+    <ClInclude Include="Header\ComponentCreator.h" />
+    <ClInclude Include="Header\ConfigLoading.h" />
+    <ClInclude Include="Header\Coordinator.h" />
+    <ClInclude Include="Header\Core.h" />
+    <ClInclude Include="Header\EntityManager.h" />
+    <ClInclude Include="Header\ExceptionHandler.h" />
+    <ClInclude Include="Header\FontSystem.h" />
+    <ClInclude Include="Header\GameLogic.h" />
+    <ClInclude Include="Header\GlobalVariables.h" />
+    <ClInclude Include="Header\Graphics.h" />
+    <ClInclude Include="Header\ImguiManager.h" />
+    <ClInclude Include="Header\InputSystem.h" />
+    <ClInclude Include="Header\JSONSerialization.h" />
+    <ClInclude Include="Header\ListOfComponents.h" />
+    <ClInclude Include="Header\matrix3x3.h" />
+    <ClInclude Include="Header\matrix4x4.h" />
+    <ClInclude Include="Header\MessageSystem.h" />
+    <ClInclude Include="Header\Mouse.h" />
+    <ClInclude Include="Header\Physics.h" />
+    <ClInclude Include="Header\Render.h" />
+    <ClInclude Include="Header\Shader.h" />
+    <ClInclude Include="Header\SignalHandler.h" />
+    <ClInclude Include="Header\SystemsManager.h" />
+    <ClInclude Include="Header\vector2d.h" />
+    <ClInclude Include="Header\vector3d.h" />
+    <ClInclude Include="Header\HelperFunctions.h" />
+    <ClInclude Include="Libraries\include\nlohmann\json_v3_10_5.hpp" />
+    <ClInclude Include="Libraries\include\tinyXML\tinyxml2.h" />
+    <ClInclude Include="Libraries\lib\ImGui\imconfig.h" />
+    <ClInclude Include="Libraries\lib\ImGui\imgui.h" />
+    <ClInclude Include="Libraries\lib\ImGui\ImGuizmo.h" />
+    <ClInclude Include="Libraries\lib\ImGui\imgui_impl_glfw.h" />
+    <ClInclude Include="Libraries\lib\ImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="Libraries\lib\ImGui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="Libraries\lib\ImGui\imgui_internal.h" />
+    <ClInclude Include="Libraries\lib\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Libraries\lib\ImGui\imstb_textedit.h" />
+    <ClInclude Include="Libraries\lib\ImGui\imstb_truetype.h" />
+    <ClInclude Include="Header\ParticleSystem.h" />
+    <ClInclude Include="Volume.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ConfirmQuit.json" />
+    <None Include="HowToPlay.json" />
+    <None Include="Json\GameObjects.json" />
+    <None Include="Json\Main_Menu.json" />
+    <None Include="Json\PlayerAnimation.json" />
+    <None Include="Json\spritesheet_ref.json" />
+    <None Include="Main_Menu.json" />
+    <None Include="PauseMenu.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

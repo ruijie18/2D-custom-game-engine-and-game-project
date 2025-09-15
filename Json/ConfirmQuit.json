@@ -1,0 +1,117 @@
+{
+  "entities": [
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 1600.0,
+            "y": 900.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 450,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/Background.png",
+        "type": "texture"
+      },
+      "name": "MenuUI"
+
+    },
+
+
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 500.0,
+            "y": 500.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 450,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/ConfirmQuit.png",
+        "type": "texture"
+      },
+      "name": "MenuUI"
+
+
+    },
+
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 400.0,
+            "y": 120.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 425,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/YesSir.png",
+        "type": "texture",
+        "Button": {
+          "action": "quit"
+         }
+      },
+      "name": "MenuUI"
+
+
+    },
+
+    {
+      "components": {
+
+        "RenderLayer": 2,
+
+        "Transform": {
+          "rotate": 0.0,
+          "scale": {
+            "x": 400.0,
+            "y": 120.0,
+            "z": 1.0
+          },
+          "translate": {
+            "x": 800,
+            "y": 565,
+            "z": 0.0
+          }
+        },
+        "textureFile": "./Assets/Textures/Nope.png",
+        "type": "texture",
+        "Button": {
+          "action": "nope"
+         }
+      },
+      "name": "MenuUI"
+
+
+    }
+
+
+
+
+  ]
+}

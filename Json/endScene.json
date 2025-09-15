@@ -1,0 +1,110 @@
+{
+    "entities": [
+        
+          
+          {
+            "components": {
+      
+              "RenderLayer": 2,
+      
+              "Transform": {
+                "rotate": 0.0,
+                "scale": {
+                  "x": 1600.0,
+                  "y": 900.0,
+                  "z": 1.0
+                },
+                "translate": {
+                  "x": 800,
+                  "y": 450,
+                  "z": 0.0
+                }
+              },
+              "textureFile": "./Assets/Textures/EndScene3.png",
+              "type": "texture",
+              "seconds":4,
+              "alpha":0.0
+            },
+            "name": "cutscene"
+          },
+          {
+            "components": {
+      
+              "RenderLayer": 2,
+      
+              "Transform": {
+                "rotate": 0.0,
+                "scale": {
+                  "x": 1600.0,
+                  "y": 900.0,
+                  "z": 1.0
+                },
+                "translate": {
+                  "x": 800,
+                  "y": 450,
+                  "z": 0.0
+                }
+              },
+              "textureFile": "./Assets/Textures/EndScene2.png",
+              "type": "texture",
+              "seconds":4,
+              "alpha":0.0
+            },
+            "name": "cutscene"
+          },
+          {
+            "components": {
+      
+              "RenderLayer": 2,
+      
+              "Transform": {
+                "rotate": 0.0,
+                "scale": {
+                  "x": 1600.0,
+                  "y": 900.0,
+                  "z": 1.0
+                },
+                "translate": {
+                  "x": 800,
+                  "y": 450,
+                  "z": 0.0
+                }
+              },
+              "textureFile": "./Assets/Textures/EndScene.png",
+              "type": "texture",
+              "seconds":4,
+              "alpha":1.0
+            },
+            "name": "cutscene"
+          },
+
+          {
+            "components": {
+      
+              "RenderLayer": 2,
+      
+              "Transform": {
+                "rotate": 0.0,
+                "scale": {
+                  "x": 400.0,
+                  "y": 100.0,
+                  "z": 1.0
+                },
+                "translate": {
+                  "x": 1320,
+                  "y": 700,
+                  "z": 0.0
+                }
+              },
+              "textureFile": "./Assets/Textures/skip.png",
+              "type": "texture",
+              "alpha":1.0,
+              "Button": {
+            "action": "next"
+           }
+            },
+            "name": "nextButton"
+          }
+    
+    ]
+  }

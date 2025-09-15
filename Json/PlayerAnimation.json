@@ -1,0 +1,59 @@
+{
+  "animations": {
+    "Walking": {
+      "texture": "Updated_walking_animation_.png",
+      "totalFrames": 7,
+      "rows": 3,
+      "columns": 3,
+      "frametime": 0.3,
+      "width": 47.5,
+      "height": 85.5
+    },
+    "IDLE": {
+      "texture": "Updated_idle_animation_.png",
+      "totalFrames": 10,
+      "rows": 3,
+      "columns": 4,
+      "frametime": 0.3,
+      "width": 47.5,
+      "height": 85.5
+    },
+    "Jumping": {
+      "texture": "NewJump.png",
+      "totalFrames": 1,
+      "rows": 1,
+      "columns": 1,
+      "frametime": 0.2,
+      "width": 100,
+      "height": 100
+    },
+    "Crouching": {
+      "texture": "Crouch.png",
+      "totalFrames": 1,
+      "rows": 1,
+      "columns": 1,
+      "frametime": 0.2,
+      "width": 85.5,
+      "height": 53.2
+    },
+    "CrouchWalk": {
+      "texture": "Crouchanimation.png",
+      "totalFrames": 4,
+      "rows": 2,
+      "columns": 2,
+      "frametime": 0.6,
+      "width": 85.5,
+      "height": 53.2
+    },
+
+    "Falling": {
+      "texture": "NewFall.png",
+      "totalFrames": 1,
+      "rows": 1,
+      "columns": 1,
+      "frametime": 0.1,
+      "width":  100,
+      "height": 100
+    }
+  }
+}

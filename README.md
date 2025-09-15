@@ -27,10 +27,7 @@ C++, OpenGL, GLSL, FMOD, FreeType, GLEW, GLFW, GLM, ImGui, LodePNG, stb_image
 
 *********************************************************************************************************
 * Game Name:    * Break_In                                            
-* Team Name:    * Hustler's University                                    
-* Engine Name:  * TateEngine                                    
-* Module Code:  * CSD22450S25                                        
-*********************************************************************************************************
+* Team Name:    * Hustler's                                                                                 *********************************************************************************************************
 * Copyright:    * All Content Â© 2025 DigiPen Institute of Technology Singapore. All Rights Reserved.    
 *********************************************************************************************************
 
